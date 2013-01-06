@@ -14,7 +14,8 @@ package starling.extensions
     {
         public var x:Number;
         public var y:Number;
-        public var scale:Number;
+		public var scaleX:Number;
+		public var scaleY:Number;
         public var rotation:Number;
         public var color:uint;
         public var alpha:Number;
@@ -24,7 +25,7 @@ package starling.extensions
         public function Particle()
         {
             x = y = rotation = currentTime = 0.0;
-            totalTime = alpha = scale = 1.0;
+            totalTime = alpha = scaleX = scaleY = 1.0;
             color = 0xffffff;
         }
     }
